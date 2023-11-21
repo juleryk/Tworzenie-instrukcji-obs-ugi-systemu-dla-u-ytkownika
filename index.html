@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DWVA CSRF Level: LOW</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <section id="naglowek">
+        <img src="damn-vulnerable-web-app.png" alt="">
+    </section>
+    <br>
+    <section id="kontenerinfo">
+<br>
+    <h2 class="flex-item"> <img src="745139.png" id="iconinfo" width="5%" alt=""> <a href="https://github.com/digininja/DVWA">Damn Vulnerable Web Application</a> </h2>
+    <section id="infodvwa">
+        <p>Aplikacja internetowa stworzona specjalnie <b> w celu szkolenia w dziedzinie testów penetracyjnych i zrozumienia zagrożeń </b> związanych z bezpieczeństwem aplikacji internetowych. <br>
+        DVWA jest stworzone w języku PHP i używa bazy danych MySQL. Głównym celem DVWA jest dostarczenie platformy do praktycznego uczenia się i testowania umiejętności związanych z bezpieczeństwem aplikacji internetowych, takich jak ataki SQL injection, <br> Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF) itp.</p>
+    </section>
+    <br>
+    <h2 class="flex-item"> <img src="745139.png" id="iconinfo" width="5%" alt=""> <a href="https://pl.wikipedia.org/wiki/Cross-site_request_forgery">CSRF</a> </h2>
+    <section id="infocsrf">
+        Cross-Site Request Forgery (CSRF) to atak, w którym atakujący wykorzystuje uprawnienia zalogowanego użytkownika do wykonania niechcianych działań na innej stronie internetowej, na której użytkownik również jest zalogowany.
+    </section>
+    <br>
+</section>
+
+<br>
+
+
+
+    <section id="film">
+        <video controls id="vid" muted>
+            <source src="Atak CSRF - low.mp4" type="video/mp4">
+        </video>
+    </section>  <br>
+
+    <section id="aside">
+        <a id="lin1" href="#0">1. Zmiana Security Level</a>
+        <a id="lin2" href="#7">2. Fragment kodu do skopiowania ze strony DVWA (CTRL + U) oraz reszta rzeczy do skopiowania</a>
+        <a id="lin3" href="#14">3. Zmiana wartości atrybutu action -> skopiowany link strony</a>
+        <a id="lin4" href="#22">4. Zmiana typów inputu</a>
+        <a id="lin5" href="#43">5. Modyfikacja przycisku submit </a>
+        <a id="lin6" href="#53">6.Dopisanie value='root' do pola formularza, w celu ułatwienia użytkownikom testowania różnych zagrożeń związanych z hasłami </a>
+        <a id="lin7" href="#60">7. Poprawny zapis pliku</a>
+        <a id="lin8" href="#67">8. Sprawdzenie działania pliku</a>
+        <a id="lin9" href="#74">9. Jak chronić się przed CSRF</a>
+    </section>
+
+</body>
+</html>
